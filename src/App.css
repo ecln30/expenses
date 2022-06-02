@@ -71,6 +71,11 @@ main {
    align-items: center;
    line-height: 0px;
    padding-bottom: 5px;
+   cursor:pointer
+}
+
+.week:hover{
+    cursor: pointer;
 }
 
 .mon {
