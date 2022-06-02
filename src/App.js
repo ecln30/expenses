@@ -7,9 +7,7 @@ function App() {
 
   function amount(e){
     const el = e.target
-    console.log(el)
     const preEl = el.previousElementSibling
-    const day = el.className
     if (el.matches(".mon")) {
         preEl.style.top = "20px"
         el.classList.toggle("mon-mar")
