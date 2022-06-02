@@ -1,38 +1,296 @@
-.App {
-  text-align: center;
+body {
+    box-sizing: border-box;
+    background:  hsl(28, 10%, 53%);
+    height: 100vh;
+    display: grid;
+    place-items: center;
+    font-family: 'DM Sans', sans-serif;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+main {
+  width: 600px;
+  height: 700px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.head {
+  width: 87%;
+  height: 100px;
+  display: flex;
+  padding: 20px 40px;
+  border-radius: 10px;
+  justify-content: space-between;
+  align-items: center;
+  background:  hsl(10, 79%, 65%);
+  color: white
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.period {
+  margin-left: 20px;
+  color: hsl(23, 28%, 16%);
+}
+
+.title{
+   display: flex;
+   flex-direction: column;
+}
+
+.txt {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.price {
+  font-size : 35px;
+}
+
+.logo {
+  width: 90px;
+  height: 90px;
+}
+
+.container {
+  width: 93.4%;
+  height: 70%;
+  margin-top: 30px;
+  padding: 20px;
+  background: hsl(33, 100%, 98%);
+  border-radius: 10px;
+}
+
+
+.weeks {
+   display: flex;
+   justify-content: space-evenly;
+   margin-top: 70px;
+}
+
+.week {
+   display: flex;
+   flex-flow: column wrap;
+   text-align: center;
+   align-items: center;
+   line-height: 0px;
+   padding-bottom: 5px;
+}
+
+.mon {
+    width: 50px;
+    height: 50px;
+    background: hsl(10, 79%, 65%);
+    margin-top: 4.2rem;
+    border-radius: 5px;
+}
+
+.tue {
+   width: 50px;
+   height: 80px;
+   background: hsl(10, 79%, 65%);
+   margin-top: 2.3rem;
+   border-radius: 5px;
+}
+
+.wed {
+  width: 50px;
+  height: 130px;
+  background: hsl(186, 34%, 60%);
+  margin-top: -.8rem;
+  border-radius: 5px;
+}
+
+.thu {
+   width: 50px;
+   height:70px;
+   background:hsl(10, 79%, 65%);
+   margin-top: 2.9rem;
+   border-radius: 5px;
+}
+
+.fri {
+    width: 50px;
+    height: 60px;
+    background: hsl(10, 79%, 65%);
+    border-radius: 5px;
+    margin-top: 3.5rem;
+}
+
+.sat {
+   width: 50px;
+   height: 100px;
+   background: hsl(10, 79%, 65%);
+   border-radius: 5px;
+   margin-top: 1.1rem
+}
+
+.sun {
+  width: 50px;
+  height: 70px;
+  background: hsl(10, 79%, 65%);
+  margin-top: 2.9rem;
+  border-radius: 5px;
+}
+
+hr {
+  width: 90%;
+  margin-top: 40px;
+  color: hsl(27, 66%, 92%);
+}
+
+.foo {
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-between
+}
+
+.total p {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  margin-left: 20px;
+  font-size: 18px;
+  color: hsl(28, 10%, 53%);
+  font-weight: bold
 }
 
-.App-link {
-  color: #61dafb;
+.num {
+  font-size: 50px;
+  color: hsl(23, 28%, 16%);
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.last p {
+  display: flex;
+  flex-flow: column wrap;
+  font-size: 20px;
+  text-align: end;
+  margin-top: 50px;
+  margin-right: 20px;
+  color: hsl(23, 28%, 16%);
+  font-weight: bold;
 }
+
+.lastMonth {
+   color: hsl(28, 10%, 53%); 
+}
+
+.amount{
+   width: 55px;
+   height: 20px;
+   position: relative;
+   background: hsl(25, 47%, 15%);
+   font-size: 18px;
+   display: grid;
+   place-items: center;
+   text-align: center;
+   padding: 0 5px;
+   padding-top: 20px;
+   border-radius: 5px;
+   color: white;
+   display: none
+}
+
+.show{
+  display: block
+}
+
+.mon-mar {
+  margin-top: 1.8rem
+}
+
+.tue-mar {
+   margin-top: -.1rem
+}
+
+.wed-mar {
+   margin-top: -3.2rem
+}
+
+.thu-mar {
+   margin-top: .6rem
+}
+
+.fri-mar {
+   margin-top: 1.3rem
+}
+
+.sat-mar {
+   margin-top: -1.4rem
+}
+
+.sun-mar {
+   margin-top: .6rem
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
